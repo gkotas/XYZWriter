@@ -8,14 +8,6 @@ catalog = i18nCatalog("xyzwriter")
 
 def getMetaData():
     return {
-        "plugin": {
-            "name": catalog.i18nc("@label", "My GCode Writer"),
-            "author": "Not Ultimaker",
-            "version": "1.0",
-            "description": catalog.i18nc("@info:whatsthis", "Writes GCode to a file."),
-            "api": 3
-        },
-
         "mesh_writer": {
             "output": [{
                 "extension": "3w",
